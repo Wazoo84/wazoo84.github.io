@@ -16,7 +16,7 @@ body {
 main{
     margin: 0%;
     height: 100vh;
-    border: 1px solid #e2712600 ;
+    border: 1px solid #fefefe00 ;
     
 }
 
@@ -69,6 +69,6 @@ td {
 
 img {
      height: 80%;
-     background-color: red;
+     background-color: rgb(5, 117, 98);
 
 }

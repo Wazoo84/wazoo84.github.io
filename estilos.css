@@ -1,0 +1,74 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(img/fondo.jpg);
+    background-size: cover;    /* Ajusta el tamaño de la imagen para cubrir el fondo */
+    background-repeat: no-repeat;    /* Evita que la imagen de fondo se repita */
+    overflow: hidden;
+}
+@font-face {
+    font-family: "titulo";
+    src: url("fonts/NaughtyMonster.ttf");
+  }
+  
+main{
+    margin: 0%;
+    height: 100vh;
+    border: 1px solid #e2712600 ;
+    
+}
+
+.pagina {
+
+    display: flex;
+    height: 100vh;
+    top: -50%;
+    background-color: #b1f0ed00;
+    transition: opacity 0.5s ease;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid #0a2d2c00 ;
+}
+
+h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-family:"titulo";
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 5px rgb(121, 200, 184);
+}
+
+
+table {
+    transform: scale(0.85);
+    transform-origin: top;
+    width: 100%;
+    height: 30px;
+    border-collapse: collapse;
+    table-layout: 50%;
+    vertical-align: middle;  
+    
+}
+
+th ,
+td {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #2b179b00 ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(2, 3, 3);
+    stroke: white;
+    stroke-width: 1%;
+    text-shadow: 0 0 1px rgb(92, 159, 126);
+}
+
+img {
+     height: 80%;
+     background-color: red;
+
+}

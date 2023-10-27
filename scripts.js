@@ -1,6 +1,9 @@
 const paginas = document.querySelectorAll('.pagina');
 let paginaActual = 0;
 
+
+
+
 function mostrarPagina() {
   paginas[paginaActual].style.display = 'block';
   setTimeout(() => {
@@ -9,7 +12,7 @@ function mostrarPagina() {
   setTimeout(() => {
     aplicarDesenfoque();
     ocultarPagina();
-  }, 13000);/* tiempo mostrar pagina */
+  }, 3000);/* tiempo mostrar pagina */
 }
 
 function aplicarDesenfoque() {
@@ -29,3 +32,24 @@ function ocultarPagina() {
 }
 
 mostrarPagina();
+
+
+/* fondo dinamico */
+const backgrounds = [
+  'img/fondo1.jpg',
+  'img/fondo2.jpg',
+  'img/fondo3.jpg',
+];
+
+let currentBackgroundIndex = 0;
+
+function changeBackground() {
+  document.body.style.backgroundImage = `url(${backgrounds[currentBackgroundIndex]})`;
+  currentBackgroundIndex = (currentBackgroundIndex + 1) % backgrounds.length;
+}
+
+// Cambiar el fondo cada x segundos
+setInterval(changeBackground, 3200);
+
+// Cambiar el fondo inicial
+changeBackground();

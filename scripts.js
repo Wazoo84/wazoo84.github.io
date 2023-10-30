@@ -36,9 +36,9 @@ mostrarPagina();
 
 /* fondo dinamico */
 const backgrounds = [
-  'img/fondo1.jpeg',
-  'img/fondo2.jpeg',
-  'img/fondo3.jpeg',
+  'img/fondo1.jpg',
+  'img/fondo2.jpg',
+  'img/fondo3.jpg',
 ];
 
 let currentBackgroundIndex = 0;

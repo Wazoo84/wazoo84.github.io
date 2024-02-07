@@ -12,7 +12,7 @@ function mostrarPagina() {
   setTimeout(() => {
     aplicarDesenfoque();
     ocultarPagina();
-  }, 3000);/* tiempo mostrar pagina */
+  }, 10000);/* tiempo mostrar pagina */
 }
 
 function aplicarDesenfoque() {

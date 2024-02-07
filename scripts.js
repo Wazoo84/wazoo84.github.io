@@ -49,7 +49,7 @@ function changeBackground() {
 }
 
 // Cambiar el fondo cada x segundos
-setInterval(changeBackground, 3200);
+setInterval(changeBackground, 10200);
 
 // Cambiar el fondo inicial
 changeBackground();

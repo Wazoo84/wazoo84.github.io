@@ -12,7 +12,11 @@ function mostrarPagina() {
   setTimeout(() => {
     aplicarDesenfoque();
     ocultarPagina();
+<<<<<<< Updated upstream
   }, 10500);/* tiempo mostrar pagina */
+=======
+  }, 9000);/* tiempo mostrar pagina */
+>>>>>>> Stashed changes
 }
 
 function aplicarDesenfoque() {

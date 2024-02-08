@@ -33,7 +33,6 @@ function ocultarPagina() {
 
 mostrarPagina();
 
-
 /* fondo dinamico */
 const backgrounds = [
   'img/fondo1.jpg',
@@ -53,3 +52,6 @@ setInterval(changeBackground, 9200);
 
 // Cambiar el fondo inicial
 changeBackground();
+
+
+

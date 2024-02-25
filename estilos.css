@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    /*background-image: url(img/fondo.jpg);*/
     background-size: cover;    /* Ajusta el tamaño de la imagen para cubrir el fondo */
     background-repeat: no-repeat;    /* Evita que la imagen de fondo se repita */
     overflow: hidden;
@@ -48,7 +47,7 @@ table {
     width: 100%;
     height: 30px;
     border-collapse: collapse;
-    table-layout: 50%;
+    table-layout: 10%;
     vertical-align: middle;  
     
 }
@@ -80,7 +79,7 @@ th.sab {
 }
 
 img {
-     height: 100%;
+     height: 190px;
      background-color: rgba(5, 117, 98, 0);
 
 }

@@ -40,7 +40,7 @@ h1 {
     /*text-shadow: 0 0 5px rgb(121, 200, 184);*/
 }
 h1.info {
-    margin-top: -40px;
+    margin-top: -80px;
     font-family: "titulo";
     font-size: 60px;
     color: rgb(0, 0, 0);
@@ -88,6 +88,7 @@ th.kids {
 }
 
 .contentShows{
+    margin-top: -60px;
     display: flex;
     justify-content: center;
 }

@@ -39,6 +39,14 @@ h1 {
     color: rgb(0, 0, 0);
     /*text-shadow: 0 0 5px rgb(121, 200, 184);*/
 }
+h1.info {
+    margin-top: -40px;
+    font-family: "titulo";
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 5px rgb(196, 189, 189);
+    stroke: black;
+}
 
 
 table {
@@ -48,8 +56,7 @@ table {
     height: 30px;
     border-collapse: collapse;
     table-layout: 10%;
-    vertical-align: middle;  
-    
+    vertical-align: middle;      
 }
 
 th ,
@@ -64,22 +71,41 @@ td {
     stroke: white;
     stroke-width: 1%;
     text-shadow: 0 0 1px rgb(92, 159, 126);
+    
 }
-th.sab {
+th.kids {
     position: relative;
     align-items: center;
     text-align: center;
     border: 1px solid #2b179b00 ;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 60px;
-    color: rgb(107, 7, 7);
+    font-size: 40px;
+    color: rgba(46, 4, 123, 0.682);
     stroke: white;
-    stroke-width: 1%;
-    text-shadow: 0 0 50px rgb(121, 31, 6);
+    stroke-width: 10%;
+    text-shadow: 0 0 5px rgb(255, 32, 32);
+    
+}
+
+.contentShows{
+    display: flex;
+    justify-content: center;
 }
 
 img {
      height: 190px;
      background-color: rgba(5, 117, 98, 0);
+     /*box-shadow: 0 0 10px rgb(233, 126, 3);*/
+}
 
+img.kids {
+    height: 190px;
+    background-color: rgba(5, 117, 98, 0);
+    box-shadow: 0 0 10px rgb(233, 126, 3);
+}
+
+img.shows {
+    height: 300px;
+    background-color: rgba(5, 117, 98, 0);
+    margin: 0  30px;
 }
